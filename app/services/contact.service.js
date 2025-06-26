@@ -11,6 +11,7 @@ class ContactService {
             address: payload.address,
             phone: payload.phone,
             favorite: payload.favorite,
+            interests: payload.interests,
             };
         // Remove undefined fields
         Object.keys(contact).forEach(

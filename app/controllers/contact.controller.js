@@ -102,7 +102,6 @@ exports.findAllFavorite = async (req, res, next) => {
     }
 };
 
-
 // Delete all contacts of a user from the database
 exports.deleteAll = async (req, res, next) => {
     try {
